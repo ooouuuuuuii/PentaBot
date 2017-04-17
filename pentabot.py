@@ -95,6 +95,10 @@ for comment in comments:
 			print("Replying to: " + comment.title)
 			comment.reply("HAPHAPHAPHAPHAPHAPHAPHAPHAPHAPHAPHAPHAPHAP")
 			break
+		elif penta + 'noob' in text.lower():
+			print("Replying to: " + comment.title)
+			comment.reply("U WOT M8")
+			break
 
 #Post checker
 #for submission in submissions:
