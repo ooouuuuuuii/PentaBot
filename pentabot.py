@@ -44,8 +44,20 @@ for comment in comments:
 			else:
 				comment.reply("Hi u/{0}!".format(author))
 			break
-		elif penta + 'automod' in text.lower():
-			comment.reply("I hope Automod-sama notices me...")
+		elif penta + 'spread' in text.lower():
+			comment.reply("My poor, poor retarted brother.")
+			break
+		elif penta + 'destroy' in text.lower():
+			comment.reply("YES MASTER.")
+			break
+		elif penta + 'suggestion' in text.lower():
+			comment.reply("If you have a suggestion about me, you can PM /u/ooouuuuuii about it. I also mentioned him just now.")
+			break
+		elif penta + 'necromancer' in text.lower():
+			comment.reply("I love me a little snack sometimes!")
+			break
+		elif penta + 'up up down down left right left right b a start' in text.lower():
+			comment.reply("PentaBot has now evolved to TeraBot!")
 			break
 
 #Post checker
