@@ -37,7 +37,7 @@ for comment in comments:
 			break
 		elif penta + 'destroyer' in text.lower():
 			print("Replying to: " + comment.title)
-			comment.reply("NOOO! MY ONLY WEAKNESS!")
+			comment.reply("Dodgeball is fun!")
 			break
 		elif penta + 'automod' in text.lower():
 			print("Replying to: " + comment.title)
@@ -61,7 +61,7 @@ for comment in comments:
 			break
 		elif penta + 'suggestion' in text.lower():
 			print("Replying to: " + comment.title)
-			comment.reply("If you have a suggestion about me, you can PM /u/ooouuuuuii about it. I also mentioned him just now, so you can comment too.")
+			comment.reply("If you have a suggestion about me, you can PM /u/ooouuuuuii about it. I also mentioned him just now, so you can comment here too.")
 			break
 		elif penta + 'necromancer' in text.lower():
 			print("Replying to: " + comment.title)
@@ -98,6 +98,18 @@ for comment in comments:
 		elif penta + 'noob' in text.lower():
 			print("Replying to: " + comment.title)
 			comment.reply("U WOT M8")
+			break
+		elif penta + 'use thunderbolt' in text.lower():
+			print("Replying to: " + comment.title)
+			comment.reply("PENTAAA... BOOOOOOOOOOOOOOOOT!")
+			break
+		elif penta + 'predator' in text.lower():
+			print("Replying to: " + comment.title)
+			comment.reply("NOOOOO! MY ONLY WEEEAKNEEESSSS!")
+			break
+		elif penta + 'fanboy' in text.lower():
+			print("Replying to: " + comment.title)
+			comment.reply("*Changes font to Ubuntu Bold*")
 			break
 
 #Post checker
