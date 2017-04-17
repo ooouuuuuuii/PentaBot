@@ -18,7 +18,7 @@ for comment in comments:
 		author = comment.author
 		if penta + 'git gud' in text.lower():
 			#Notifies reply being sent
-			print("Replying to: {}".format(comment.title))
+			#print("Replying to: " + comment.title)
 			#Actually replies
 			comment.reply("I got gud, skreb.")
 			#Makes sure that bot doesn't repeat itself
@@ -43,6 +43,9 @@ for comment in comments:
 				comment.reply("Hi dad :3")
 			else:
 				comment.reply("Hi u/{0}!".format(author))
+			break
+		elif penta + 'automod' in text.lower():
+			comment.reply("I hope Automod-sama notices me...")
 			break
 
 #Post checker
