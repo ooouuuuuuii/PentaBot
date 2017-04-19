@@ -13,7 +13,7 @@ comments = subreddit.stream.comments()
 penta = 'pentabot, '
 
 #Comment checker
-while True:
+#while True:
 	for comment in comments:
 			text = comment.body
 			author = comment.author
@@ -87,6 +87,15 @@ while True:
 			elif penta + 'hate' in text.lower():
 				comment.reply("**TRIGGERED**")
 				break
+			elif penta + 'in ur base' in text.lower():
+				comment.reply("Killin ur doods, too!")
+				break
+			elif penta + 'attitude!' in text.lower():
+				if author == 'ooouuuuuii':
+					comment.reply("sorry dad")
+				else:
+					comment.reply("YOU'RE NOT MY DAD!")
+				break
 			#Commands inspired by others start here
 			elif penta + 'fuck diep.io fuck fuckfcukfcyif fuck this fucking game fuckf uck' in text.lower():
 				#thnx, /u/OvertrapperFTW
@@ -96,6 +105,5 @@ while True:
 				#thnx, /u/sbk2015
 				comment.reply("[MG]xXminecraftkid_pro_sipn2taemXx")
 				break
-
 #Post checker
 #for submission in submissions:
